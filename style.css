@@ -6,9 +6,21 @@ body {
     height: 100%;
     font-size: 1.1em; /*12px*/
     padding: 40px;
+    background-color: white;
 }
-.box {
+
+.box{
     width: 20px;
     height: 20px;
     background-color: green;
+}
+.boxGreen {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+.boxYellow{
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
 }

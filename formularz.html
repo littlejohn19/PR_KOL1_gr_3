@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href='style.css' rel='stylesheet' type='text/css' />
+  </head>
+  <body>
+    <div class='row'>
+      <form>
+        <label for="email" class="form-label">Email:</label>
+        <input id="email" type='email' class="form-control" name="email"/>
+          <label for="temat" class="form-label">Temat:</label>
+          <input id="temat" type='text' class="form-control"name="temat" />
+          <label for="wiadomosc" class="form-label">Wiadomość:</label>
+          <textarea id="wiadomosc" name="wiadomosc" rows='5' type='text' class="form-control" ></textarea>
+          <button id="wyslij" class='btn btn-primary'  />Wyślij</button>
+          <input id="wyczysc" type="reset" class='btn btn-danger' value="Wyczyść"/>
+        </form>
+    </div>
+
+    <div id="licznik">
+
+    </div>
+
+    <div id="output">
+
+    </div>
+
+
+    <script>
+
+      let ilosc=0;
+      function wyswietl(){
+        console.log("xd");
+        email=document.getElementById("email").value;
+        temat=document.getElementById("temat").value;
+        wiadomosc=document.getElementById("wiadomosc").value;
+
+        document.getElementById("output").innerHTML = "\
+        Dane:<br>\
+        Email: "+email+"<br>\
+        Temat: "+temat+"<br>\
+        Wiadomość: "+wiadomosc;
+
+        ilosc++;
+        document.getElementById("licznik").innerText = "Wyslano "+ilosc+" razy";
+
+      }
+
+      function czysc(){
+        document.getElementById("licznik").innerHTML = "";
+          document.getElementById("output").innerHTML = "";
+      }
+
+      let wyslij = document.getElementById("wyslij");
+      wyslij.addEventListener("click",function (event) {
+
+            event.preventDefault();
+          wyswietl();
+      });
+
+      let wyczysc = document.getElementById("wyczysc");
+      wyczysc.addEventListener("click",function (event) {
+          czysc();
+      });
+
+
+    </script>
+
+  </body>
+</html>

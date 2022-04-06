@@ -1,11 +1,8 @@
 # Programowanie Reaktywne - Kolokwium I
 
+Po skopiowaniu projektu na nalezy wykonać trzy zadania:
+
 ## Zadanie 1
-
-Należy zrobić fork'a niniejszego projektu i sklonować repozytorium.
-
-
-## Zadanie 2
 
 W projekcie znajduje się 3 pliki: 
 - index.html
@@ -38,6 +35,7 @@ Ten pusty znacznik będzie odpowiedzialny za wyświetlenie nawigacji z pliku nav
 ## Zadanie 4
 
 Do projektu należy dodać kolejną podstronę (`formularz.html`) oraz bibliotekę bootstrap (tylko na tej podstronie).
+(dodanie Bilbioteki Bootstrap sprowadza się do dodania stylów: `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">`)
 Z pomocą dodanej biblioteki (jej klas) należy dodać pola:
 - tekstowe Email: `<input type="email">`,
 - tekstowe Temat: `<input type="text">`,
@@ -62,7 +60,3 @@ Po wybraniu przycisku Wyczyść, fomrmularz zostaje wyczyszczony, a informacja w
 Pod formularzem należy wstawić licznik, który będzie wyświetlał liczbę, ile razy został kliknęty przycisk wyślij.
 
 Technika rozwiązania dowolna!
-
-## Zadanie 5
-
-Należy wykonać PR do głównego brancha repozytorium z treścią kolokwium.

@@ -17,7 +17,7 @@ elementów ze strony i wykonując następującą akcję:
 
 W tym zadaniu należy dodać również kolejny kolejny przycisk oraz plik .js, który będzie obsługiwał zmianę tła strony. 
 
-## Zadanie 3
+## Zadanie 2
 
 Do projektu należy dodać dwa pliki:
 - navbar.js
@@ -32,7 +32,7 @@ Ten pusty znacznik będzie odpowiedzialny za wyświetlenie nawigacji z pliku nav
 - po dołączeniu pliku navbar.js do obu plików html należy umieścić w nich odpowiedni kod, który odniesie się do znacznika
  div i umieści w nim zdefiniowaną w zmiennej nawigację.
 
-## Zadanie 4
+## Zadanie 3
 
 Do projektu należy dodać kolejną podstronę (`formularz.html`) oraz bibliotekę bootstrap (tylko na tej podstronie).
 (dodanie Bilbioteki Bootstrap sprowadza się do dodania stylów: `<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">`)
